@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleIdentifier</key><string>dev.clicksmith.app</string>
+  <key>CFBundleExecutable</key><string>Clicksmith</string>
+  <key>CFBundleName</key><string>Clicksmith</string>
+  <key>CFBundleDisplayName</key><string>Clicksmith</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>__VERSION__</string>
+  <key>CFBundleVersion</key><string>__BUILD__</string>
+  <key>CFBundleIconFile</key><string>AppIcon</string>
+  <key>LSMinimumSystemVersion</key><string>14.0</string>
+  <key>LSUIElement</key><true/>
+  <key>LSApplicationCategoryType</key><string>public.app-category.utilities</string>
+  <key>NSHumanReadableCopyright</key><string>Clicksmith</string>
+  <key>CFBundleURLTypes</key><array><dict>
+    <key>CFBundleURLName</key><string>dev.clicksmith.run</string>
+    <key>CFBundleURLSchemes</key><array><string>clicksmith</string></array>
+  </dict></array>
+  <key>NSAppleEventsUsageDescription</key><string>Clicksmith asks Finder for the selected files.</string>
+</dict></plist>
